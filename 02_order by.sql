@@ -64,7 +64,7 @@ select
 order by
 		menu_price;
         
--- order by 절을 사용하여 지정 목록을 사용하여 데이터 정렬alter
+-- order by 절을 사용하여 지정 목록을 사용하여 데이터 정렬
 -- 맨 왼쪽 값이 2번째 인자 이후의 값과 일치하면 해당 위치 값을 반환
 select field('b', 'a', 'b', 'c');
 
